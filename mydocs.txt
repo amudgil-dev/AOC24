@@ -1,0 +1,43 @@
+Recommended Commit Conventions
+feat (Feature): Use this when you're implementing a new solution or algorithm for a day’s challenge.
+
+feat(day1): solve part 1 of challenge with brute force approach
+
+fix (Bug Fix): If you discover a bug or issue in a previous solution and correct it.
+fix(day2): correct off-by-one error in part 2
+docs (Documentation): For updates to documentation, such as adding comments explaining your solutions, or writing a detailed README if your repository includes instructions.
+
+Example Commit Message:
+sql
+Copy code
+docs: add explanation for day 3 solution
+chore (Chore): For non-functional changes like updating dependencies (e.g., updating your Python libraries or adding a requirements file), or refactoring code for clarity without changing behavior.
+
+Example Commit Message:
+vbnet
+Copy code
+chore: update dependencies to latest versions
+refactor (Refactor): If you refactor the solution to improve its structure or readability without changing its functionality.
+
+Example Commit Message:
+scss
+Copy code
+refactor(day4): simplify parsing logic for part 1
+test (Test): For adding or modifying tests, including writing test cases for edge cases or performance improvements.
+
+Example Commit Message:
+scss
+Copy code
+test(day5): add unit tests for part 2
+style (Style): For changes related to code formatting (e.g., adjusting indentation, spacing, or variable names to conform to style guidelines).
+
+Example Commit Message:
+makefile
+Copy code
+style: fix indentation in day 6 solution
+perf (Performance): When you optimize your solution for better performance (e.g., reducing time complexity or memory usage).
+
+Example Commit Message:
+scss
+Copy code
+perf(day7): optimize sorting algorithm in part 1
